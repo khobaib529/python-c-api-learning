@@ -36,6 +36,10 @@ python3 setup.py build_ext --inplace
 
 This command compiles the C++ code and generates the Python bindings directly in the current directory.
 
+Run the main.py to see the output:
+```bash
+python3 main.py
+```
 ### Example Usage
 
 Once the module is built and installed, you can use the `Circuit` class in Python like this:
