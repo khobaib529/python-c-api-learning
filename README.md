@@ -17,7 +17,7 @@ The primary goal of this project is to gain practical experience in:
 - **Example Methods**:
   - `connect(u, v, resistance)`: Connect two nodes with a specified resistance.
   - `calculate_total_resistance()`: Calculate and return the total resistance of the circuit.
- 
+
 ## Build Guide (Ubuntu)
 
 Follow the steps below to build and install the Python C extension that wraps the C++ `Circuit` class.
@@ -28,6 +28,18 @@ First, clone the repository to your local machine:
 git clone https://www.github.com/khobaib529/python-c-api-learning.git
 cd python-c-api-learning
 ```
+
+Create a virual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+Install dependencies:
+```bash
+pip3 install -r requirements.txt
+```
+
 To build the C extension, run the following command from the root directory of the repository:
 
 ```bash
